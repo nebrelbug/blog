@@ -19,10 +19,10 @@ locale                   : "en-US"
 title                    : "Ben Gubler's Blog"
 title_separator          : "-"
 name                     : "Ben Gubler"
-description              : "The most wonderful blog ever"
+description              : "A blog about coding, engineering, and writing."
 url                      : "https://blog.bengubler.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "nebrelbug/myblog"
+repository               : "nebrelbug/blog"
 github: [metadata]
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -198,7 +198,9 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Denver
+  
+# https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)

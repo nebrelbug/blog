@@ -1,4 +1,23 @@
 ---
-layout: home
+layout: splash
+permalink: /
 author_profile: true
+date: 2019-03-05
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/mountainphoto.jpeg
+  actions:
+    - label: "Github"
+      url: "https://github.com/nebrelbug/"
+excerpt: "A blog about coding, engineering, writing, and entrepreneurship"
+
 ---
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
