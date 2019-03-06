@@ -380,6 +380,10 @@ body:hover .visually-hidden button {
   }
 }
 
+.greedy-nav__toggle:focus {
+  outline: none;
+}
+
 /*
    Sticky, fixed to top content
    ========================================================================== */
